@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# anything insided artifacts should not be pushed to git
+artifacts/*
+
+# any zip file in any folder should not be pushed to git
+*.zip
