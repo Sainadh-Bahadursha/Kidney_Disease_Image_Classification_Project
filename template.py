@@ -51,3 +51,4 @@ for filepath in list_of_files:
     # Log a message if the file already exists
     else:
         logging.info(f"{filename} is already exists")
+        
