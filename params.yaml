@@ -1,1 +1,8 @@
-key: val
+AUGMENTATION: True  # Enable data augmentation
+IMAGE_SIZE: [224, 224, 3]  # Input size for VGG16
+BATCH_SIZE: 16  # Number of samples per batch
+INCLUDE_TOP: False  # Exclude fully connected layers of pre-trained model
+EPOCHS: 1  # Number of training epochs
+CLASSES: 2  # Number of output classes
+WEIGHTS: imagenet  # Use pre-trained ImageNet weights
+LEARNING_RATE: 0.01  # Learning rate for optimizer
